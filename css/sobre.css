@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+
+.logo{
+   text-align: center;
+}
+
+.links{
+    display: flex;
+    text-align: center;
+    gap: 4rem;
+    justify-content: center;
+    font-size: 15pt;
+    background-color: #000;
+    height: 50px;
+    align-items: center;
+}
+
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    transition: 1s all;
+    
+}
+
+p{
+    font-size: 18pt;
+}
+
+h1{
+    font-size: 25pt;
+}
+
+.caixa1{
+    width: 800px;
+    margin-top: 5rem;
+    margin-left: 30%;
+}
+
+.caixa2{
+    display: flex;
+    font-size: 15pt;
+    gap: 50px;
+    width: 800px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+img{
+    border-radius: 50px;
+}
+
+
+button{
+    
+    background-color: #000;
+    border-radius: 50px;
+    color: #FFF;
+    width: 200px;
+    margin-top: 20px;
+    font-size: 20pt;
+    height: 50px;
+}
+
+.caixa3{
+    
+    text-align: left;
+    width: 800px;
+    margin-left: 29%;
+    margin-bottom: 50px;
+ 
+
+}
+
+button{
+    font-family: poppins;
+    white-space: nowrap;
+    transition: 1s all;
+
+}
+
+footer{
+    background-color: #000;
+    height: 250px;
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a:hover{
+    transition: 1s;
+    font-size: 20pt;
+}
+
+button:hover{
+    width: 250px;
+    height: 75px;
+
+}
